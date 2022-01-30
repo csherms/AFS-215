@@ -1,0 +1,23 @@
+// AFS-215 Notes
+
+// Install Pytest
+https://pypi.org/project/pytest/
+pip install pytest
+
+// When working in virtual environment
+	$ pip3 install -U virtualenv
+​ 	$ python3 -m virtualenv venv
+​ 	$ source venv/bin/activate
+​ 	$ pip install pytest
+
+For Python 3.6 and above, you may get away with using venv instead of virtualenv, 
+and you don’t have to install it first. It’s included in Python 3.6 and above.
+However, I’ve heard that some platforms still behave better with virtualenv.
+
+py -m pip install --user virtualenv
+py -m venv env
+
+
+// pip install info 
+https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
