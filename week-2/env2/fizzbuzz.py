@@ -1,4 +1,4 @@
-def printFunction(num):
+def fizzbuzz(num):
     if num == 1:
         return "1"
     elif num == 2:
@@ -19,6 +19,5 @@ def printFunction(num):
     else:
         return "None"
 
-
-num = int(input('Enter a Number: '))
-print(printFunction(num))
+    # num = int(input('Enter a Number: '))
+    # print(printFunction(num))
