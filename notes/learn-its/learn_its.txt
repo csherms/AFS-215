@@ -1,4 +1,23 @@
 // 215 Learn it's
-//Week-1
+// Week-1
 verifications
 automatic test
+
+// Week-2
+pytest
+refactor
+red phase 
+green phase
+failing
+pycharm
+change
+production
+clean
+pass
+software developers
+before
+testing at the function level
+functionality
+unit test
+test
+red, green, refactor
