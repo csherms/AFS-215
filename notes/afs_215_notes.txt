@@ -17,7 +17,16 @@ However, I’ve heard that some platforms still behave better with virtualenv.
 py -m pip install --user virtualenv
 py -m venv env
 
-
 // pip install info 
 https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
+// Selenium
+pip install selenium
+pip install -U selenium
+
+// Mochca
+npm install -global mocha
+
+// Chai
+npm install -save-dev chai
 
