@@ -1,29 +1,21 @@
-// 215 Learn it's
-// Week-1
-verifications
-automatic test
+// Mocha and Chai
+istall mocha test explorer extension in vs code
+make sure that you have a parent folder and then a test folder inside of that
+inside the parent folder:
+npm init -y
+npm install mocha chai
 
-// Week-2
-pytest
-refactor
-red phase 
-green phase
-failing
-pycharm
-change
-production
-clean
-pass
-software developers
-before
-testing at the function level
-functionality
-unit test
-test
-red, green, refactor
+// at the top of the page
+const expect = require('chai').expect;
+
+// tell chai to expect a passing test when true == false
+it("expect passing test", function () {
+  expect(true).to.equal(false);
+});
 
 
-// Week-4 (Mocha and Chai)
+
+
 it --- keyword used to create a new test in mocha
 chai is required via --- require('chai').expect
 Mocha test explorer --- extension used in VS Code to run Mocha tests
@@ -36,5 +28,3 @@ Some keywords belonging to chai ---  to, be, been, is, that, which, and,
 has, have, with, at, of, same, but, does, still, also.
 Mocha test explorer allows the developer to avoid using the terminal to run TDD tests.
 Mocha test explorer is useful for grouping tests.
-
-
