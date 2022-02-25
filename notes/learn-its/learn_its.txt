@@ -23,18 +23,13 @@ test
 red, green, refactor
 
 
-// Week-4 (Mocha and Chai)
-it --- keyword used to create a new test in mocha
-chai is required via --- require('chai').expect
-Mocha test explorer --- extension used in VS Code to run Mocha tests
-When setting up tests you must use npm init -y before you can install Mocha and Chai.
-A folder with test in its name is required for Mocha to recognize the tests to be ran.
-Tests written with chai can be written using natural language.
-red, green, refactor
-An arrow function is a valid way to create a function in a class.
-Some keywords belonging to chai ---  to, be, been, is, that, which, and,
-has, have, with, at, of, same, but, does, still, also.
-Mocha test explorer allows the developer to avoid using the terminal to run TDD tests.
-Mocha test explorer is useful for grouping tests.
-
+// Week-5
+@
+red,green,refactor
+from "filename" import "classname"
+tuple()
+list()
+dry
+pytest
+assert
 

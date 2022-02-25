@@ -1,32 +1,31 @@
 // AFS-215 Notes
 
 // Install Pytest
-https://pypi.org/project/pytest/
-pip install pytest
+https://docs.pytest.org/en/6.2.x/getting-started.html
+pip install -U pytest
 
-// When working in virtual environment
-	$ pip3 install -U virtualenv
-​ 	$ python3 -m virtualenv venv
-​ 	$ source venv/bin/activate
-​ 	$ pip install pytest
+// Chck version of pytest
+pytest --version
 
-For Python 3.6 and above, you may get away with using venv instead of virtualenv, 
-and you don’t have to install it first. It’s included in Python 3.6 and above.
-However, I’ve heard that some platforms still behave better with virtualenv.
+// Installing virtual environments
+pip install virtualenv
+-or-
+python3 -m venv (if the version of python is 3.10.2 or higher)
 
-py -m pip install --user virtualenv
-py -m venv env
+// Creating and activating a virtual environment
+python -m venv [name of virtual environment]
+- or -
+virtualenv [name of your new virtual environment]
+cd [name of your new virtual environment]
 
-// pip install info 
-https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+-activate- to activate using bash terminal:
+cd [Scripts]
+. activate
+- or - 
+[name of virtual environment]/Scripts/activate.bat  #if you use this one you have to open a new terminal after
 
-// Selenium
-pip install selenium
-pip install -U selenium
+-deactivate- 
+deactivate
 
-// Mochca
-npm install -global mocha
-
-// Chai
-npm install -save-dev chai
-
+This youtube video shows how to select python interpreter within your current env:
+https://www.youtube.com/watch?v=8h9w0meM8i4
