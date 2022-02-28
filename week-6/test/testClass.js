@@ -37,6 +37,10 @@ before(function () {
   console.log("Testing started");
 });
 
+after(function () {
+  console.log("Testing finished");
+});
+
 afterEach(function () {
   console.log("test complete");
 });
