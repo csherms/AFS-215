@@ -33,3 +33,15 @@ dry
 pytest
 assert
 
+
+// Week-6
+className
+afterEach
+beforeEach
+module.exports = class className
+const Order = require('./Order') x = new Order()
+require
+Mocha
+chai is required via require('chai').expect
+module.exports
+.eql is equivelent to ==
