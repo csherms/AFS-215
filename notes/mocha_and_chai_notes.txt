@@ -39,3 +39,6 @@ afterEach(function () {
 console.log("test complete")
 })
 
+it("expected to add 'hello' to the array", function () {
+  expect(arr1.addItem("hello")).to.deep.equal(["hello"]);
+});
